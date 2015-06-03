@@ -5,31 +5,58 @@
 </head>
 
 <body>
+<style type="text/css">
+    @media only screen and (max-device-width: 480px) {
+        table[class=maintable] {
+            width:320 !important;
+        }
+        
+        img[class=img_header] {
+            width:320px !important;
+        }
+        
+        img[class=img_line] {
+            width:320px !important;
+        }
+        
+        td[class=img_option] {
+            display: none !important;
+        }
+        
+        span[class=text_option] {
+            padding left: 2%;
+        }     
+    }
+</style>
 
 <center>
-<table border="0" cellpadding="0" cellspacing="0" width="604px" style="margin:0; padding:0; border-collapse:collapse; background-color:#ffffff;">
+<table class="maintable" border="0" cellpadding="0" cellspacing="0" width="604px" style="margin:0; padding:0; border-collapse:collapse; background-color:#ffffff;">
     <tr>
         <td>            
             <!-- Subheader -->
             <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin:0; padding:0; border-collapse:collapse;">
                 <tr>
                     <td align="left">
-                        <span style="display:block; width:75%; color:#929395; font:12px Arial, sans-serif; line-height:15px; font-style: regular; padding-top:10px; padding-bottom:5px; padding-left:4%;">
+                        <span style="display:block; width:100%; color:#929395; font:12px Arial, sans-serif; line-height:15px; font-style: regular; padding-top:10px; padding-bottom:5px; padding-left:4%;">
                             Посмотрите лучшие предложения недели.
                         </span>
                     </td>
                 </tr>
             </table> 
-            
-            
+        </td>
+    </tr>        
+    <tr>
+        <td>    
             <!-- Header -->
+            <center>
             <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin:0; padding:0; border-collapse:collapse;">
                <tr>
                     <td align="center">
-                       <img src="https://raw.githubusercontent.com/lift-and-run/sample-email-markup/master/images/header.jpg" alt="Доготип" border="0" width="600" height="140px" style="display:block;"/>
+                        <img class="img_header" src="https://raw.githubusercontent.com/lift-and-run/sample-email-markup/master/images/header.jpg" alt="Логотип" border="0" width="604"  style="display:block;"/>
                     </td>
                 </tr>
             </table>
+            </center>
             
             <!-- Content offer-->
             <center>
@@ -37,7 +64,7 @@
                 <tr>
                     <td align="center">
                         <!-- Block 01 -->
-                        <span style="display: inline-block; width:300px">
+                        <span style="display: inline-block; width:300px;">
                             <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin:0; padding:0; border-collapse:collapse;">
                                 <tr>
                                     <td align="center">
@@ -45,7 +72,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td align="center"  style="padding-right:5%; padding-left:5%;">
+                                    <td align="center"  style="padding-right:15px; padding-left:15px;">
                                         <span style="display:block; width:270px; height:45px; background-color:#008bc7; text-decoration:none; color:#ffffff; font:20px Arial, sans-serif; line-height:30px;" target="_blank ">
                                             <center>
                                             <a href="https://news.google.com/" style=" display:block; text-decoration:none; padding-top:7px; padding-bottom:7px; color:#ffffff; font:20px Arial, sans-serif; line-height:30px;" target="_blank ">Посмотреть на сайте</a>
@@ -64,7 +91,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td align="center"  style="padding-left:5%; padding-right:5%;">
+                                    <td align="center"  style="padding-left:15px; padding-right:15px;">
                                         <span style="display:block; width:270px; height:45px; background-color:#008bc7; text-decoration:none; color:#ffffff; font:20px Arial, sans-serif; line-height:30px;" target="_blank ">
                                             <center>
                                             <a href="https://news.google.com/" style=" display:block; text-decoration:none; padding-top:7px; padding-bottom:7px; color:#ffffff; font:20px Arial, sans-serif; line-height:30px;" target="_blank ">Посмотреть на сайте</a>
@@ -78,44 +105,51 @@
                 </tr>
             </table>        
             </center>
-            
+        </td>
+    </tr>   
+    <tr>
+        <td>    
             <!-- Content line-->
+            <center>
             <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin:0; padding:0; border-collapse:collapse;">
                 <tr>
                     <td align="center">
-                       <img src="https://raw.githubusercontent.com/lift-and-run/sample-email-markup/master/images/line.jpg" alt="" border="0" width="600px" height="47px" style="display:block; padding-top:20px;"/>
+                        <img class="img_line" src="https://raw.githubusercontent.com/lift-and-run/sample-email-markup/master/images/line.jpg" alt="Также в нашем интренет магазине:" border="0" width="604px"  style="display:block; padding-top:20px;"/>
                     </td>
                 </tr>
-            </table> 
-            
+            </table>
+            </center>
+        </td>
+    </tr>
+    <tr>
+        <td>    
             <!-- Content option-->
-
             <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin:0; padding:0; border-collapse:collapse;">
                 <tr style="padding-top:20px;">
-                    <td valign="top" align="right" width="35%" style="padding-left:3%; padding-right:3%;">
+                    <td class= "img_option" valign="top" align="right" width="25%" style="padding-left:3%; padding-right:1%;">
                         <img src="https://raw.githubusercontent.com/lift-and-run/sample-email-markup/master/images/bonus.jpg" alt="" border="0" width="110px" height="100px" style="display:block; padding-top: 50px;"/>
                     </td>
-                    <td style="padding-right:2%">
+                    <td class= "text_option" style="padding-right:2%; padding-left:3%;">
                         <span style="display:block; color:#50555f; font:18px Arial, sans-serif; line-height:25px; font-style: regular; padding-top:30px;">
-                            <b>Бонусы за покупки<br><br>Дарим бонус в размере 5% от стоимости каждого товара. 1 бонус = 1 рублю. При следующей покупке Вы сможете расплатиться накопленными бонусами – частично или полностью.</b>
+                            <b>Бонусы за покупки<br><br>Дарим бонус в размере&nbsp5% от стоимости каждого товара. 1 бонус&nbsp= 1 pрублю. При следующей покупке Вы сможете расплатиться накопленными бонусами – частично или полностью.</b>
                         </span>
                     </td>
                 </tr>
                 <tr>
-                    <td valign="top" align="right" style="padding-left:3%; padding-right:3%;">
+                    <td class= "img_option" valign="top" align="right" width="25%" style="padding-left:3%; padding-right:1%;">
                         <img src="https://raw.githubusercontent.com/lift-and-run/sample-email-markup/master/images/deliver.jpg" alt="" border="0" width="110px" height="100px" style="display:block; padding-top: 70px;"/>
                     </td>
-                    <td style="padding-right:2%">
+                    <td class= "text_option" style="padding-right:2%; padding-left:3%;">
                         <span style="display:block; color:#50555f; font:18px Arial, sans-serif; line-height:25px; font-style: regular; padding-top:50px;">
                             <b>Бесплатная доставка<br><br>Бесплатно доставляем по всей России технику Bork, Dyson, Bissell. По Москве – множество товаров других брендов из нашего каталога.</b>
                         </span>
                     </td>
                 </tr>
                 <tr >
-                    <td valign="top" align="right" style="padding-left:3%; padding-right:3%;">
+                    <td class= "img_option" valign="top" align="right" width="25%" style="padding-left:3%; padding-right:1%;">
                         <img src="https://raw.githubusercontent.com/lift-and-run/sample-email-markup/master/images/garant.jpg" alt="" border="0" width="110px" height="100px" style="display:block; padding-top: 70px;"/>
                     </td>
-                    <td style="padding-right:2%">
+                    <td class= "text_option" style="padding-right:2%; padding-left:3%;">
                         <span style="display:block; color:#50555f; font:18px Arial, sans-serif; line-height:25px; font-style: regular; padding-top:50px; padding-bottom:50px;">
                             <b>Гарантия на товар<br><br>Гарантируем легальное происхождение и сертифицированное обслуживание товара.</b><br><br>
                         </span>
@@ -128,10 +162,10 @@
                 <tr>
                     <td bgcolor="#071739">
                         <center>
-                        <span style="display:block; width:360px; color:#ffffff; font:10px Arial, sans-serif; line-height:15px; font-style: regular; padding-top:20px; padding-bottom:15px;">
+                        <span style="display:block; width:70%; color:#ffffff; font:12px Arial, sans-serif; line-height:15px; font-style: regular; padding-top:20px; padding-bottom:15px;">
                             Вы получили письмо, так как являетесь подписчиком Технопарк.<br>Если Вы хотите отписать адрес
-                            <a href="sample@post.com" target="_blank" style="color:#ffffff; font:10px Arial, sans-serif; line-height:15px; font-style: regular;">sample@post.com</a>, нажмите
-                            <a href="https://news.google.com/" target="_blank" style="color:#616161; font:10px Arial, sans-serif; line-height:15px; font-style: regular;">отписаться</a>.
+                            <a href="sample@post.com" target="_blank" style="color:#ffffff; font:12px Arial, sans-serif; line-height:15px; font-style: regular;">sample@post.com</a>, нажмите
+                            <a href="https://news.google.com/" target="_blank" style="color:#616161; font:12px Arial, sans-serif; line-height:15px; font-style: regular;">отписаться</a>.
                         </span>
                         </center>
                     </td>
